@@ -1,0 +1,7 @@
+TARGETNAME=Elite
+TARGETPATH=Output
+TARGETTYPE=DRIVER
+USE_LIBCNTPR=1
+TARGETLIBS=$(BASEDIR)\lib\wlh\*\libcntpr.lib
+
+SOURCES= DriverEntry.c Offset.c Cheat.c Toolset.c ServicePatch.c Cheat.c Calcscreen.c
